@@ -1240,7 +1240,7 @@ abstract class BoletoAbstract
      *
      * @return bool
      */
-    public function getImprimeValor(): bool
+    public function getImprimeValor()
     {
         return $this->imprimeValor;
     }
