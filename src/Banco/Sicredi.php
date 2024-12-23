@@ -129,7 +129,7 @@ class Sicredi extends BoletoAbstract
      */
     protected function gerarNossoNumero()
     {
-        $ano = date("y");
+        $ano = '25';//date("y");
 
         $numero = self::zeroFill($this->getAgencia(), 4) .
             self::zeroFill($this->getPosto(), 2) .
